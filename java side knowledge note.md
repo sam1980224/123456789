@@ -133,5 +133,20 @@ Here is the current list for **Java Side Knowledge**:
       ```java
       Animal[] animals = {new Cat(), new Dog(), new Axolotl()}; // Upcasting here
       ```
+16. **Checked vs Unchecked Exception**
+   Java Exception Hierarchy
+   ```plaintext
+   Throwable
+   ├── Error (e.g., OutOfMemoryError)
+   └── Exception
+       ├── RuntimeException (Unchecked Exceptions)
+       │   ├── NullPointerException
+       │   ├── ArithmeticException
+       │   └── ...
+       └── Checked Exceptions
+           ├── IOException
+           ├── SQLException
+           └── ...
+
 
 Let me know if you'd like to add or revise anything! 😊
