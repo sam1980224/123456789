@@ -147,6 +147,20 @@ Here is the current list for **Java Side Knowledge**:
            ├── IOException
            ├── SQLException
            └── ...
-
+   ```
+17. **Java Arraylist**
+   Unlike regular arrays, ArrayList can dynamically grow and shrink in size as elements are added or removed.
+   Syntax:
+   ```java
+   ArrayList<Type> listName = new ArrayList<>();
+   
+   // Basic Operations
+   add(element) – Adds "apple" to the list.
+   add(index, element) – Inserts "apple" at the specified position.
+   get(index) – Retrieves the element at the specified index.
+   set(index, element) – Replaces the element at the index with "apple".
+   remove(index) – Removes the element at the specified index.
+   remove(element) – Removes the first occurrence of "apple".
+   ```
 
 Let me know if you'd like to add or revise anything! 😊
