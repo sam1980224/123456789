@@ -162,5 +162,15 @@ Here is the current list for **Java Side Knowledge**:
    remove(index) – Removes the element at the specified index.
    remove(element) – Removes the first occurrence of "apple".
    ```
+18. **Key Layers in Clean Architecture**
+   - **Entities**:
+       - Represent critical business data and rules.
+       - Example: A `Loan` in a banking system or a `Player` in a game.
+   - **Use Cases**:
+       - Represent application-specific business rules.
+       - Example: A use case to register a new user or calculate interest rates.
+   - **Interface Adapters**:
+       - Adapt data from the format most convenient for use cases to the format required by external systems (UI, database,       etc.).
+   - **Frameworks & Drivers**:
+       - External systems such as databases, web servers, or user interfaces.
 
-Let me know if you'd like to add or revise anything! 😊
